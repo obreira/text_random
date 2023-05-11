@@ -1,0 +1,18 @@
+#myBtn {
+    display: none; /* hide the button by default */
+    position: fixed; /* make it fixed so it stays in the same position when scrolling */
+    bottom: 20px; /* position it 20 pixels from the bottom */
+    right: 30px; /* position it 30 pixels from the right */
+    z-index: 99; /* make sure it appears on top of other elements */
+    border: none; /* remove the border */
+    outline: none; /* remove the outline */
+    background-color: rgb(255, 217, 0); /* set the background color */
+    color: white; /* set the text color */
+    cursor: pointer; /* change the cursor to a pointer */
+    padding: 15px; /* add some padding */
+    border-radius: 50%; /* make it round */
+  }
+  
+  #myBtn:hover {
+    background-color: orange; /* change the background color on hover */
+  }
